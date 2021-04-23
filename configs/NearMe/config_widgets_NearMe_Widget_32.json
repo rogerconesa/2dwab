@@ -1,0 +1,280 @@
+{
+  "fontColor": "#000000",
+  "highlightColor": "#00ffff",
+  "showSelectionColor": true,
+  "searchLayers": [
+    {
+      "url": "https://services3.arcgis.com/lnFkorfBb3ma2riJ/arcgis/rest/services/Cámaras_Tráfico/FeatureServer/0",
+      "geometryType": "esriGeometryPoint",
+      "id": "Cámaras_Tráfico_9581",
+      "layerId": "0",
+      "baseURL": "https://services3.arcgis.com/lnFkorfBb3ma2riJ/arcgis/rest/services/Cámaras_Tráfico/FeatureServer/",
+      "isMapServer": false,
+      "title": "Cámaras Tráfico",
+      "visibility": true,
+      "popupInfo": {
+        "title": "Cámara de Tráfico",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "visible": false,
+            "isEditable": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            },
+            "label": "OBJECTID"
+          },
+          {
+            "fieldName": "Name",
+            "visible": false,
+            "isEditable": true,
+            "label": "Name"
+          },
+          {
+            "fieldName": "FolderPath",
+            "visible": false,
+            "isEditable": true,
+            "label": "FolderPath"
+          },
+          {
+            "fieldName": "SymbolID",
+            "visible": false,
+            "isEditable": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            },
+            "label": "SymbolID"
+          },
+          {
+            "fieldName": "AltMode",
+            "visible": false,
+            "isEditable": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            },
+            "label": "AltMode"
+          },
+          {
+            "fieldName": "Base",
+            "visible": false,
+            "isEditable": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            },
+            "label": "Base"
+          },
+          {
+            "fieldName": "Snippet",
+            "visible": false,
+            "isEditable": true,
+            "label": "Snippet"
+          },
+          {
+            "fieldName": "PopupInfo",
+            "visible": false,
+            "isEditable": true,
+            "label": "PopupInfo"
+          },
+          {
+            "fieldName": "HasLabel",
+            "visible": false,
+            "isEditable": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            },
+            "label": "HasLabel"
+          },
+          {
+            "fieldName": "LabelID",
+            "visible": false,
+            "isEditable": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            },
+            "label": "LabelID"
+          },
+          {
+            "fieldName": "URL_imagen",
+            "label": "",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Nombre_cámara",
+            "label": "",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          }
+        ],
+        "description": "{PopupInfo}",
+        "showAttachments": false,
+        "mediaInfos": []
+      },
+      "renderer": {
+        "type": "simple",
+        "symbol": {
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriPMS",
+          "url": "https://static.arcgis.com/images/Symbols/Firefly/FireflyC7.png",
+          "imageData": "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",
+          "contentType": "image/png",
+          "width": 22.5,
+          "height": 22.5
+        }
+      }
+    }
+  ],
+  "bufferInfo": {
+    "isVisible": true
+  },
+  "defaultBufferDistance": 100,
+  "maxBufferDistance": 2000,
+  "bufferDistanceUnit": {
+    "bufferUnit": "UNIT_METER",
+    "routeUnit": "METER",
+    "distanceUnit": "meters",
+    "label": "Metres",
+    "acronym": "m",
+    "value": "meters"
+  },
+  "zoomToFeature": true,
+  "intersectSearchedLocation": false,
+  "enableProximitySearch": true,
+  "routeService": "https://route.arcgis.com/arcgis/rest/services/World/Route/NAServer/Route_World",
+  "directionLengthUnit": {
+    "bufferUnit": "UNIT_STATUTE_MILE",
+    "routeUnit": "MILES",
+    "distanceUnit": "miles",
+    "label": "Milles",
+    "acronym": "mi",
+    "value": "miles"
+  },
+  "selectedSearchLayerOnly": true,
+  "isGeodesic": false,
+  "showLocationTool": true,
+  "symbols": {
+    "routeSymbol": {
+      "color": [
+        21,
+        99,
+        184,
+        255
+      ],
+      "width": 3.75,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "graphicLocationSymbol": {
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "type": "esriPMS",
+      "url": "http://static.arcgis.com/images/Symbols/Basic/esriCrimeMarker_86.png",
+      "imageData": "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",
+      "contentType": "image/png",
+      "width": 22.5,
+      "height": 22.5
+    },
+    "polylineSymbol": {
+      "color": [
+        21,
+        99,
+        184,
+        255
+      ],
+      "width": 3.75,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "polygonSymbol": {
+      "color": [
+        255,
+        189,
+        1,
+        0
+      ],
+      "outline": {
+        "color": [
+          255,
+          189,
+          1,
+          255
+        ],
+        "width": 2.25,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    },
+    "bufferSymbol": {
+      "color": [
+        255,
+        199,
+        198,
+        120
+      ],
+      "outline": {
+        "color": [
+          207,
+          101,
+          99,
+          255
+        ],
+        "width": 1.5,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "maxResultCount": null,
+  "searchSourceSettings": {
+    "allPlaceholder": "",
+    "showInfoWindowOnSelect": true,
+    "sources": [
+      {
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+        "name": "ArcGIS World Geocoding Service",
+        "singleLineFieldName": "SingleLine",
+        "placeholder": "Cerca una adreça o un lloc",
+        "countryCode": "",
+        "zoomScale": 50000,
+        "maxSuggestions": 6,
+        "maxResults": 6,
+        "searchInCurrentMapExtent": false,
+        "enableLocalSearch": true,
+        "localSearchMinScale": 300000,
+        "localSearchDistance": 50000,
+        "type": "locator"
+      }
+    ]
+  },
+  "attributeSymbology": [],
+  "filterSettings": {
+    "collapse": false,
+    "groupFiltersByLayer": false,
+    "expandFiltersOnLoad": false,
+    "filters": []
+  },
+  "showImageGallery": true,
+  "showFeaturesCount": true,
+  "editorDescription": "Cerca una adreça o localitza-la al mapa",
+  "noFeatureFoundMessage": "No s'ha trobat cap resultat",
+  "showCurrentLocationTool": false,
+  "enableDirection": false,
+  "bufferInputOption": "slider"
+}

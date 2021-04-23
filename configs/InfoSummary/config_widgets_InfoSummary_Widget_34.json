@@ -1,0 +1,500 @@
+{
+  "mainPanelIcon": "",
+  "layerInfos": [
+    {
+      "layer": "Cámaras_Tráfico_9581",
+      "label": "Cámaras Tráfico",
+      "refresh": false,
+      "url": "https://services3.arcgis.com/lnFkorfBb3ma2riJ/arcgis/rest/services/Cámaras_Tráfico/FeatureServer/0",
+      "id": "Cámaras_Tráfico_9581",
+      "symbolData": {
+        "symbolType": "LayerSymbol",
+        "symbol": {
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriPMS",
+          "url": "https://static.arcgis.com/images/Symbols/Firefly/FireflyC7.png",
+          "imageData": "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",
+          "contentType": "image/png",
+          "width": 19.5,
+          "height": 19.5
+        },
+        "clusteringEnabled": false,
+        "displayFeatureCount": false,
+        "_highLightColor": "#ffffff",
+        "icon": {
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriPMS",
+          "url": "https://static.arcgis.com/images/Symbols/Firefly/FireflyC7.png",
+          "imageData": "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",
+          "contentType": "image/png",
+          "width": 21,
+          "height": 21
+        },
+        "iconType": "LayerIcon",
+        "renderer": {
+          "_cache": {
+            "rotationInfo": null,
+            "colorInfo": null,
+            "opacityInfo": null
+          },
+          "symbol": {
+            "url": "${appPath}/configs/InfoSummary/url1618592179460.png",
+            "width": 26,
+            "height": 26,
+            "imageData": "https://static.arcgis.com/images/Symbols/Firefly/FireflyC7.png",
+            "contentType": "image/png",
+            "size": 16,
+            "_inherited": {
+              "p": 2
+            }
+          },
+          "isMaxInclusive": true,
+          "_inherited": {
+            "p": 1
+          }
+        },
+        "s": "<svg overflow=\"hidden\" width=\"26\" height=\"26\" style=\"touch-action: none;\"><defs></defs><image fill-opacity=\"0\" stroke=\"none\" stroke-opacity=\"0\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" x=\"-13\" y=\"-13\" width=\"26\" height=\"26\" preserveAspectRatio=\"none\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAAAAFzUkdCAK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAAsRAAALEQF/ZF+RAAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M26LyyjAAAABZ0RVh0Q3JlYXRpb24gVGltZQAwOS8yMS8xN85GMlQAAAfuSURBVGhD7dpZrF1jFAfwi5aq1lSU0ppqFtQQQ1Mxx0zSIKYQQwghxJQQ0wMhIUhUKw1tlDRNeqUREeqVBw+a8Eo8eOsT4U3cu63fttf13a/n3Hv6QDlx4t/ufHut/1r/b61v7X1OjfT7jI2NjYyPj480TdP+DTNWNDt12DmwS4cZHWZ22HVApH36Jx/uNk7GzRzktF2fFJHoiAVIAXXiuwVmddg9MHsasEl7vrWwnoJgYDGliCTqSEsBZfKZ+B6BOYG5gT2nARu2fEphpai+gqYV00NEPwGZfJn43oF9AvsG5nXYr0Kus2HLJ4WVovoKmlbMNCJ6CSiTl9z+gQMC8wMHBg4KLKhgzT02bPnwxbFXACfuWtDgYlIIw86BY1YhWygrQIBdtcsSkpxEDwksChwaOCxweAVr7rFhy4cvDlw4cWfriSl2VmeSmG2EDCAiq2DX7F4KsMOZvESPDBwVODpwTODYCtbcY8OWT4rClYKyQlmdwcQUQvqJsEOI7Zh2sIsHB+zuEQGJSfT4wImBkwKnBJZUsOYeG7Z8+OLAhRO3GGKJKXZPMZOEVNVgkGeiFKHcetmOaYeFAbuZAiR2cuDUwBmBMwNnB86pYM09Nmz58E1BOHGLIZaY2WqlmDwzf1XFHxYCqlEebI5KmyIcUAHsnLbQJpKwy6cHzgosDZwbOD9wYeCiCtbcY8OWD18cuHDiFkMsMVNMtlk5ANoWa4VU1VC2nE55JlJEttLiwHEBLXJaQDLLAhK8OHBp4IrAVYFrKlhzjw1bPnxx4MKJW4xstRSTZyanWbZYW5Ve1VA+M90o1KdKXIrQ23ZQe9hVyVwSkKBklwduCNwYuLmCNffYsOXDFwcunLjFKMXIQS5yklvZYm1VelUjz4XJ4dCZJrUIfW4ntcvlgWsD1wVuCtwWuDNwd+CewL0dXFtzjw1bPnxx4MKJuxYjB7nIKc/LpKoQUlejbCkTxOHTt0qeIvS41rgyYHcldXtAovcFHgw8HHgk8GgH19bcY8OWD18cuHDiTjFiii0HuZQtNqkqpZC6GtlSJolDqH+V3q4JqN/t6C0Buyy5hwKPB54MPB14LvB8B9fW3GPDlg9fHLhw4hZDLDHFlkO2WF2VCSHZVnk2KPZQUk4PK2PxhIDDqI+1gN0T+NaAnX0gYNefCkj6xcDLgVcCr3Zwbc09Nmz58MWBCyduMcQSU2w5yEVOcpNjnpW2vQjJtjINelXDjFdmk8Wh1M9awS5KQKs8EXgm8EJAwm8E3gysDKzq4Nqae2zY8uGLAxdO3GKIJabYcuhVFTm37ZVCsq1yUulHO+Cwme9mvXKbMA6nvr4rYDclom1eCrwWeCuwOrAm8F5gXQfX1txjw5YPXxy4cOIWQywxxZaDXOQkt5xgE+1FSE6rsq08jLzg6U9P36yGcXl9wCG9P/BY4NmAhF4P2HnJfhDYENgYGO3g2pp7bNjy4YsDF07cYoiVVZGDXOQkt7K95D4zheS08gRVOi9x3n+MQK8S+tUhNPs9D7SBCaTP9bzdldjawPqZK5oPZ61sPp6zqvls7tvN5+DamntsOls+fHHgwolbDLHEFFsOcpGT3OSYT/v2nKSQ8nx4khp32Vamh5Hoaax/PQNMG5PHodXvWsUur49kN0Xim+etbr5Y8G7z9aK1zbfg2pp7bNh2Pnxx4MKJWwyxxBRbDtlecpNjeU5aIeVBL8+H123jz0w/L5BtdUfA4TRG7aTDq+/fj90ejZ3fPP+d5qvF65rvlo02Wy/7qPkJXFtzjw1bPp0vDlw4cYuR7SW2HOQip/KcTBz4FJIH3QMnn+Tl+bggYMZ7xci28kwwTlcE7OwGrRO7/mUk/P3yT5qfN/3Q/P7jr804uLbmHhu2fDpfHLhwZnuJJabY5TnJJ71c88D3FeJQ5dj16u2t9eqAieJVw1PatNESxqqJtHH2yubTaKEtSzc2WyX+y29NMzb+J1xbc0+bseXT+eLAhRO3GGKJKbYccgzLbbuFLAn4HuEBlQfde5MHmZ72oHNgjddRh3rhmuYbraQKBMR/LVxbc48NWz6dLw5cOHGLkQdebDnI5X8hf1drbfmnWus/e9iHYvwOzQNxqF5RhuKlcWhe44fmi9UgX3XtyI76qiv2QF91/fiQ50SpelVFfxp/podyO4RmvMB2cUf++CD3Sb+iKFFOr6yKfjTu/i0/B2U1clq1bRVohQzND3TD8ZPp0PyIPTT/rOCPqipli+V5STFKLIDDZ5IYi2a8JDx9vUpoD33u1dv3iBLW3GPDlg9fHLhw4hZDrBSR56JsqYlqtEKqf7WisJ8YpdWnDp0Jkq3m/ScF6W2JaRG7vKSCNffYsE0BOLKVcIshlpj9REz+pzefqiopRg+WYvLMmBzGoB0zTbzEeVjZTW0hMa/b2kSiJay5x4YtH744cOHELUaeiVJEnou2pbYR4jOAmBwA2Wp2LAXZRe2QouyuFzyJlrDmXibPh28KwJmtJJaYg4vwSSE9xGSb5TTL6hiFgto9vawdJOSASs4OS7SENffYsOXDNyuAM6uQ00nsiXYKtCL6CvGZRkxWpxZk90pRdlVyYJdL5Dobtnz44vB8qAWIuX0i8tNDzFSCsuUkIJFS2FTI1imTx9VXAAwsIj+lmEIQwlpQLaoUNhUy8Tr5KQXAwCLyk2Lyf/qCJO6CCJaiamGDoEw8k+8pIHPoL2Jk5A/yntqZYmyX5wAAAABJRU5ErkJggg==\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,13.00000000,13.00000000)\"></image></svg>",
+        "svg": {},
+        "panelHTML": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><image fill-opacity=\"0\" stroke=\"none\" stroke-opacity=\"0\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" preserveAspectRatio=\"none\" xlink:href=\"data:image/png;base64,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\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></image></svg>",
+        "userDefinedSymbol": false,
+        "layerId": "Cámaras_Tráfico_9581",
+        "featureDisplayOptions": {
+          "groupEnabled": false,
+          "listDisabled": false,
+          "groupByRenderer": false,
+          "groupByField": true,
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "label": "Identificador"
+            }
+          ],
+          "groupField": {
+            "name": "OBJECTID",
+            "label": ""
+          },
+          "groupByRendererOptions": {
+            "fields": []
+          }
+        }
+      },
+      "geometryType": "esriGeometryPoint",
+      "parentLayerID": "Cámaras_Tráfico_9581",
+      "renderer": {
+        "_cache": {
+          "rotationInfo": null,
+          "colorInfo": null,
+          "opacityInfo": null
+        },
+        "symbol": {
+          "url": "${appPath}/configs/InfoSummary/url1618592179468.png",
+          "width": 26,
+          "height": 26,
+          "imageData": "https://static.arcgis.com/images/Symbols/Firefly/FireflyC7.png",
+          "contentType": "image/png",
+          "size": 16,
+          "_inherited": {
+            "p": 2
+          }
+        },
+        "isMaxInclusive": true,
+        "_inherited": {
+          "p": 1
+        }
+      },
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID",
+          "editable": false,
+          "nullable": false,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false,
+          "show": false,
+          "_pk": true
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name",
+          "length": 320,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false,
+          "show": false
+        },
+        {
+          "name": "FolderPath",
+          "type": "esriFieldTypeString",
+          "alias": "FolderPath",
+          "length": 320,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false,
+          "show": false
+        },
+        {
+          "name": "SymbolID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SymbolID",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false,
+          "show": false
+        },
+        {
+          "name": "AltMode",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "AltMode",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false,
+          "show": false
+        },
+        {
+          "name": "Base",
+          "type": "esriFieldTypeDouble",
+          "alias": "Base",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false,
+          "show": false
+        },
+        {
+          "name": "Snippet",
+          "type": "esriFieldTypeString",
+          "alias": "Snippet",
+          "length": 268435455,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false,
+          "show": false
+        },
+        {
+          "name": "PopupInfo",
+          "type": "esriFieldTypeString",
+          "alias": "PopupInfo",
+          "length": 268435455,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false,
+          "show": false
+        },
+        {
+          "name": "HasLabel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "HasLabel",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false,
+          "show": false
+        },
+        {
+          "name": "LabelID",
+          "type": "esriFieldTypeInteger",
+          "alias": "LabelID",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false,
+          "show": false
+        },
+        {
+          "name": "URL_imagen",
+          "type": "esriFieldTypeString",
+          "alias": "",
+          "length": 1000,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false,
+          "show": true
+        },
+        {
+          "name": "Nombre_cámara",
+          "type": "esriFieldTypeString",
+          "alias": "",
+          "length": 500,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false,
+          "show": true
+        }
+      ],
+      "oidFieldName": "OBJECTID",
+      "subLayerId": 0,
+      "infoTemplate": {
+        "info": {
+          "title": "Cámara de Tráfico",
+          "fieldInfos": [
+            {
+              "fieldName": "OBJECTID",
+              "visible": false,
+              "isEditable": false,
+              "format": {
+                "places": 0,
+                "digitSeparator": false
+              },
+              "label": "OBJECTID"
+            },
+            {
+              "fieldName": "Name",
+              "visible": false,
+              "isEditable": true,
+              "label": "Name"
+            },
+            {
+              "fieldName": "FolderPath",
+              "visible": false,
+              "isEditable": true,
+              "label": "FolderPath"
+            },
+            {
+              "fieldName": "SymbolID",
+              "visible": false,
+              "isEditable": true,
+              "format": {
+                "places": 0,
+                "digitSeparator": false
+              },
+              "label": "SymbolID"
+            },
+            {
+              "fieldName": "AltMode",
+              "visible": false,
+              "isEditable": true,
+              "format": {
+                "places": 0,
+                "digitSeparator": false
+              },
+              "label": "AltMode"
+            },
+            {
+              "fieldName": "Base",
+              "visible": false,
+              "isEditable": true,
+              "format": {
+                "places": 6,
+                "digitSeparator": false
+              },
+              "label": "Base"
+            },
+            {
+              "fieldName": "Snippet",
+              "visible": false,
+              "isEditable": true,
+              "label": "Snippet"
+            },
+            {
+              "fieldName": "PopupInfo",
+              "visible": false,
+              "isEditable": true,
+              "label": "PopupInfo"
+            },
+            {
+              "fieldName": "HasLabel",
+              "visible": false,
+              "isEditable": true,
+              "format": {
+                "places": 0,
+                "digitSeparator": false
+              },
+              "label": "HasLabel"
+            },
+            {
+              "fieldName": "LabelID",
+              "visible": false,
+              "isEditable": true,
+              "format": {
+                "places": 0,
+                "digitSeparator": false
+              },
+              "label": "LabelID"
+            },
+            {
+              "fieldName": "URL_imagen",
+              "label": "",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox"
+            },
+            {
+              "fieldName": "Nombre_cámara",
+              "label": "",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox"
+            }
+          ],
+          "description": "{PopupInfo}",
+          "showAttachments": false,
+          "mediaInfos": []
+        },
+        "_exprCache": {},
+        "_fieldLabels": {
+          "objectid": "OBJECTID",
+          "name": "Name",
+          "folderpath": "FolderPath",
+          "symbolid": "SymbolID",
+          "altmode": "AltMode",
+          "base": "Base",
+          "snippet": "Snippet",
+          "popupinfo": "PopupInfo",
+          "haslabel": "HasLabel",
+          "labelid": "LabelID",
+          "url_imagen": "",
+          "nombre_cámara": ""
+        },
+        "_fieldsMap": {
+          "objectid": {
+            "fieldName": "OBJECTID",
+            "visible": false,
+            "isEditable": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            },
+            "label": "OBJECTID"
+          },
+          "name": {
+            "fieldName": "Name",
+            "visible": false,
+            "isEditable": true,
+            "label": "Name"
+          },
+          "folderpath": {
+            "fieldName": "FolderPath",
+            "visible": false,
+            "isEditable": true,
+            "label": "FolderPath"
+          },
+          "symbolid": {
+            "fieldName": "SymbolID",
+            "visible": false,
+            "isEditable": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            },
+            "label": "SymbolID"
+          },
+          "altmode": {
+            "fieldName": "AltMode",
+            "visible": false,
+            "isEditable": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            },
+            "label": "AltMode"
+          },
+          "base": {
+            "fieldName": "Base",
+            "visible": false,
+            "isEditable": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            },
+            "label": "Base"
+          },
+          "snippet": {
+            "fieldName": "Snippet",
+            "visible": false,
+            "isEditable": true,
+            "label": "Snippet"
+          },
+          "popupinfo": {
+            "fieldName": "PopupInfo",
+            "visible": false,
+            "isEditable": true,
+            "label": "PopupInfo"
+          },
+          "haslabel": {
+            "fieldName": "HasLabel",
+            "visible": false,
+            "isEditable": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            },
+            "label": "HasLabel"
+          },
+          "labelid": {
+            "fieldName": "LabelID",
+            "visible": false,
+            "isEditable": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            },
+            "label": "LabelID"
+          },
+          "url_imagen": {
+            "fieldName": "URL_imagen",
+            "label": "",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          "nombre_cámara": {
+            "fieldName": "Nombre_cámara",
+            "label": "",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          }
+        },
+        "titleHasRelatedFields": false,
+        "titleHasAsyncExpressions": false,
+        "contentHasAsyncExpressions": false
+      },
+      "rendererJson": "{\"type\":\"simple\",\"symbol\":{\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"type\":\"esriPMS\",\"url\":\"https://static.arcgis.com/images/Symbols/Firefly/FireflyC7.png\",\"imageData\":\"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\",\"contentType\":\"image/png\",\"width\":22.5,\"height\":22.5}}",
+      "bypassDrawingInfo": false,
+      "panelImageData": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><image fill-opacity=\"0\" stroke=\"none\" stroke-opacity=\"0\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" preserveAspectRatio=\"none\" xlink:href=\"data:image/png;base64,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\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></image></svg>",
+      "imageData": "<div class=\"imageDataGFX\"><svg overflow=\"hidden\" width=\"28\" height=\"28\" style=\"touch-action: none;\"><defs></defs><image fill-opacity=\"0\" stroke=\"none\" stroke-opacity=\"0\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" x=\"-14\" y=\"-14\" width=\"28\" height=\"28\" preserveAspectRatio=\"none\" xlink:href=\"data:image/png;base64,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\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,14.00000000,14.00000000)\"></image></svg></div>"
+    }
+  ],
+  "mapID": "8282a9df6a634194bc36f79000fbf621",
+  "mainPanelText": "",
+  "refreshInterval": "",
+  "refreshEnabled": false,
+  "countEnabled": true,
+  "displayPanelIcon": false,
+  "hidePanel": false,
+  "continuousRefreshEnabled": false,
+  "expandList": false,
+  "showAllFeatures": false,
+  "upgradeFields": false,
+  "displayClusterLayer": true
+}

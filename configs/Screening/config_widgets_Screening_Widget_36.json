@@ -1,0 +1,398 @@
+{
+  "aoiTabText": "AOI",
+  "reportTabText": "Informe",
+  "placenameButtonText": "Nom de lloc",
+  "drawToolsButtonText": "Dibuixa",
+  "shapefileButtonText": "Shapefile",
+  "coordinatesButtonText": "Coordenades",
+  "showPlacenameWidget": true,
+  "showDrawToolsWidget": true,
+  "showShapefileWidget": false,
+  "showCoordinatesWidget": false,
+  "allowShapefilesUpload": false,
+  "areaUnits": "SquareFeet",
+  "maxFeaturesForAnalysis": 1000,
+  "searchTolerance": 20,
+  "traverseUnit": "uSSurveyFeet",
+  "traverseDirectionUnit": "decimalDegree",
+  "defaultBufferDistance": 0,
+  "defaultBufferUnit": "UNIT_KILOMETER",
+  "reportSettings": {
+    "printTaskURL": "https://utility.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+    "footnote": "",
+    "logo": "${appPath}/widgets/Screening/images/default-logo.png",
+    "columnTitleColor": "#166dbe",
+    "reportTitle": "Screening Report",
+    "noDataConfiguredText": "Sense dades",
+    "naTextConfiguredValue": "N/A",
+    "customOptions": [],
+    "defaultPrintOption": "Letter ANSI A Portrait",
+    "displaySummaryInReport": true,
+    "hideZeroValueRow": false,
+    "hideNullValueRow": false
+  },
+  "searchSourceSettings": {
+    "allPlaceholder": "",
+    "showInfoWindowOnSelect": true,
+    "sources": [
+      {
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+        "name": "ArcGIS World Geocoding Service",
+        "singleLineFieldName": "SingleLine",
+        "placeholder": "ArcGIS World Geocoding Service",
+        "countryCode": "",
+        "maxSuggestions": 6,
+        "maxResults": 6,
+        "searchInCurrentMapExtent": false,
+        "enableLocalSearch": true,
+        "localSearchMinScale": 300000,
+        "localSearchDistance": 50000,
+        "type": "locator"
+      }
+    ]
+  },
+  "placenameSymbology": {
+    "point": {
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "type": "esriPMS",
+      "url": "http://static.arcgis.com/images/Symbols/Basic/esriCrimeMarker_86_Black.png",
+      "imageData": "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",
+      "contentType": "image/png",
+      "width": 24.99975,
+      "height": 24.99975
+    },
+    "polyline": {
+      "color": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "width": 4,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "polygon": {
+      "color": [
+        136,
+        136,
+        136,
+        63
+      ],
+      "outline": {
+        "color": [
+          112,
+          112,
+          112,
+          255
+        ],
+        "width": 1,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    },
+    "aoiSymbol": {
+      "color": [
+        255,
+        255,
+        255,
+        0
+      ],
+      "outline": {
+        "color": [
+          255,
+          0,
+          0,
+          255
+        ],
+        "width": 1.5,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "drawToolSymbology": {
+    "point": {
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "type": "esriPMS",
+      "url": "http://static.arcgis.com/images/Symbols/Basic/esriCrimeMarker_86_Black.png",
+      "imageData": "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",
+      "contentType": "image/png",
+      "width": 24.99975,
+      "height": 24.99975
+    },
+    "polyline": {
+      "color": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "width": 4,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "polygon": {
+      "color": [
+        136,
+        136,
+        136,
+        63
+      ],
+      "outline": {
+        "color": [
+          112,
+          112,
+          112,
+          255
+        ],
+        "width": 1,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    },
+    "aoiSymbol": {
+      "color": [
+        255,
+        255,
+        255,
+        0
+      ],
+      "outline": {
+        "color": [
+          255,
+          0,
+          0,
+          255
+        ],
+        "width": 1.5,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "shapefileSymbology": {
+    "point": {
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "type": "esriPMS",
+      "url": "http://static.arcgis.com/images/Symbols/Basic/esriCrimeMarker_86_Black.png",
+      "imageData": "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",
+      "contentType": "image/png",
+      "width": 24.99975,
+      "height": 24.99975
+    },
+    "polyline": {
+      "color": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "width": 4,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "polygon": {
+      "color": [
+        136,
+        136,
+        136,
+        63
+      ],
+      "outline": {
+        "color": [
+          112,
+          112,
+          112,
+          255
+        ],
+        "width": 1,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    },
+    "aoiSymbol": {
+      "color": [
+        255,
+        255,
+        255,
+        0
+      ],
+      "outline": {
+        "color": [
+          255,
+          0,
+          0,
+          255
+        ],
+        "width": 1.5,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "coordinatesSymbology": {
+    "point": {
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "type": "esriPMS",
+      "url": "http://static.arcgis.com/images/Symbols/Basic/esriCrimeMarker_86_Black.png",
+      "imageData": "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",
+      "contentType": "image/png",
+      "width": 24.99975,
+      "height": 24.99975
+    },
+    "polyline": {
+      "color": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "width": 4,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "polygon": {
+      "color": [
+        136,
+        136,
+        136,
+        63
+      ],
+      "outline": {
+        "color": [
+          112,
+          112,
+          112,
+          255
+        ],
+        "width": 1,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    },
+    "aoiSymbol": {
+      "color": [
+        255,
+        255,
+        255,
+        0
+      ],
+      "outline": {
+        "color": [
+          255,
+          0,
+          0,
+          255
+        ],
+        "width": 1.5,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "aoiSymbol": {
+    "color": [
+      255,
+      255,
+      255,
+      0
+    ],
+    "outline": {
+      "color": [
+        255,
+        0,
+        0,
+        255
+      ],
+      "width": 1.5,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "type": "esriSFS",
+    "style": "esriSFSSolid"
+  },
+  "layers": [
+    {
+      "url": "https://services3.arcgis.com/lnFkorfBb3ma2riJ/arcgis/rest/services/Cámaras_Tráfico/FeatureServer/0",
+      "geometryType": "esriGeometryPoint",
+      "id": "Cámaras_Tráfico_9581",
+      "label": "",
+      "layerName": "Cámaras Tráfico",
+      "layerVersion": 10.81,
+      "layerId": "0",
+      "baseURL": "https://services3.arcgis.com/lnFkorfBb3ma2riJ/arcgis/rest/services/Cámaras_Tráfico/FeatureServer/",
+      "selectedFields": {
+        "URL_imagen": {
+          "fieldName": "URL_imagen",
+          "label": null,
+          "isEditable": true,
+          "tooltip": "",
+          "visible": true,
+          "stringFieldOption": "textbox"
+        },
+        "Nombre_cámara": {
+          "fieldName": "Nombre_cámara",
+          "label": null,
+          "isEditable": true,
+          "tooltip": "",
+          "visible": true,
+          "stringFieldOption": "textbox"
+        }
+      }
+    }
+  ],
+  "showCircleTool": true,
+  "groupbyfieldCheckBoxStatus": true,
+  "allowVisibleLayerAnalysisOnly": true,
+  "lengthUnits": "Feet",
+  "downloadSettings": {
+    "type": "syncEnable",
+    "layers": [
+      {
+        "url": "https://services3.arcgis.com/lnFkorfBb3ma2riJ/arcgis/rest/services/Cámaras_Tráfico/FeatureServer/0",
+        "layerName": "Cámaras Tráfico",
+        "id": "Cámaras_Tráfico_9581",
+        "allowDownload": true,
+        "downloadingFileOption": [
+          "csv"
+        ]
+      }
+    ],
+    "extractDataTaskURL": "",
+    "downloadingFileOptions": [
+      "csv"
+    ]
+  },
+  "drawToolSelectableLayers": [
+    "Cámaras_Tráfico_9581"
+  ],
+  "showPointTool": true,
+  "showPolylineTool": true,
+  "showExtentTool": true,
+  "showPolygonTool": true
+}
